@@ -14,7 +14,7 @@ The site is built as a single HTML file and published with GitHub Pages.
 
 ## Website
 
-[Visit the website]([davidezani.com](https://davidezani.com/))
+[Visit the website](https://davidezani.com/)
 
 ## Status
 
