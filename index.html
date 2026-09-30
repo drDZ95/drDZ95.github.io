@@ -32,6 +32,9 @@
     .section-head{display:grid;grid-template-columns:1fr 2fr;gap:50px;margin-bottom:38px}
     .section-head .eyebrow{margin-top:10px}
     h2{font-size:clamp(38px,5vw,64px);line-height:1.08;margin-bottom:0}
+    .about-copy{max-width:760px;margin-left:auto;color:var(--muted);font-size:17px;line-height:1.8}
+    .about-copy p{margin-bottom:24px}
+    .about-copy p:last-child{margin-bottom:0}
     .lead{font-size:clamp(20px,2.3vw,27px);line-height:1.52;max-width:820px}
     .statement{background:var(--ink);color:var(--paper);padding:72px clamp(28px,7vw,90px);margin:16px 0 0}
     .statement .eyebrow{color:var(--accent)}
@@ -69,7 +72,7 @@
     <div class="wrap nav">
       <a class="brand" href="#top" aria-label="Davide Zani, back to top">Davide Zani<span aria-hidden="true">.</span></a>
       <nav aria-label="Main navigation">
-        <a href="#research">Research</a><a href="#work">Current work</a><a href="#cv">CV</a><a href="#writing">Writing</a><a href="#contact">Contact</a>
+        <a href="#about">About me</a><a href="#research">Research</a><a href="#work">Current work</a><a href="#cv">CV</a><a href="#writing">Writing</a><a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
@@ -82,6 +85,20 @@
       <div class="hero-aside">
         <img class="hero-portrait" src="halftone-PP.svg" alt="Halftone portrait of Davide Zani" width="300" height="300">
         <p class="hero-note">I work at the intersection of psychiatry, ethics, law, and lived experience. My interests include coercion, autonomy, suicide care, forensic mental health, and medical training.</p>
+      </div>
+    </section>
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">About / Profile</p>
+          <h2 id="about-title">About me</h2>
+        </div>
+        <div class="about-copy">
+          <p>I am a medical doctor specialising in adult psychiatry and psychotherapy in Switzerland. I graduated from the University of Brescia (Italy) with a degree in Medicine and Surgery and, alongside my clinical work, I am currently pursuing a PhD in Biomedical Ethics at the Institute of Biomedical Ethics and History of Medicine (IBME), University of Zurich (UZH). My doctoral research focuses on the ethical and legal aspects of coercion and autonomy in psychiatric care.</p>
+          <p>My clinical and academic interests include forensic psychiatry, bioethics, psychiatric epidemiology, postgraduate medical education, cognitive-behavioural psychotherapy, and the assessment and treatment of complex psychiatric conditions, including personality disorders, dual diagnoses, and adult neurodevelopmental disorders.</p>
+          <p>In addition to my medical and academic work, I maintain a strong interest in the fine arts and value creative expression as an essential component of human experience.</p>
+          <p>I actively seek collaboration in multidisciplinary and international teams, with a commitment to integrating scientific rigour, ethical reflection, and humanistic perspectives.</p>
+        </div>
       </div>
     </section>
     <section class="section" id="research" aria-labelledby="research-title">
@@ -168,6 +185,5 @@
       <span>In pursuit of meaning. Results pending.</span>
     </div>
   </footer>
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
